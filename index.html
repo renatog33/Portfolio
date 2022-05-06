@@ -21,6 +21,8 @@
             <a href="#GitHub">GitHub</a>
             <!-- Onclick and ondblclick functions added to open and close the contact form -->
             <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
+            <a href="https://www.linkedin.com/in/renatogrizelj" target="_blank">LinkedIn</a>
+            <a href="https://docs.google.com/document/d/135hadOXrrB18QIlrwDa3XmhDziVG5Ei9FHqR0QIXbIw/edit?usp=sharing" target="_blank">Resume</a>
         </div>
 
         <!--Breaks inserted to add space between navbar and the first heading-->
@@ -82,7 +84,7 @@
                     </div>
                     <!-- Slide 6 of 6 -->
                     <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/contact.jpg" alt="Replace with a picture of your choosing"> 
+                        <img class="Slideshow_Images" src="images/contact.jpg" alt="Contact me"> 
                         <div class="text"><a class="white-text contact" onclick="openForm()">Contact me now!</a></div> 
                     </div>
                     <!-- Previous and next buttons -->
@@ -119,7 +121,6 @@
                     <br>
                     <br>I am a full-stack developer and would love to work with you on your project. Let's build and sell some great softaware applications together.
                     <br>
-                    <br><a href="#Contact"> Contact</a> me below!
                 </p>
             </div>
         </div>
@@ -132,12 +133,12 @@
                 <p>
                     You can view my coding projects on my GitHub profile here:
                     <br>
-                    <p class="center"><a href="https://github.com/renatog33/HTML-and-CSS-Projects" target="_blank">Renato's Github</a></p>
+                    <p class="center"><a href="https://github.com/renatog33" target="_blank">Renato's Github</a></p>
                 </p>
             </div>
             <!--Right column-->
             <div class="Column_2">
-                <a href="https://github.com/renatog33/HTML-and-CSS-Projects" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+                <a href="https://github.com/renatog33" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
             </div>
         </div>
 
@@ -148,9 +149,9 @@
                 <form action="https://formspree.io/f/xvolbvlv" method="POST" class="form-container"> <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
                     <h1>Contact</h1>
                     <label>Name:</label>
-                        <input type="text" placeholder="Please enter your name here">
+                        <input type="text" id="Name" name="Name" placeholder="Please enter your name here">
                     <label for="phone"><b>Phone:</b></label>
-                        <input type="text" placeholder="Type your phone number here" name="phone">
+                        <input type="text" id="Phone" name="Phone" placeholder="Type your phone number here" >
                     <label>Email:</label>
                         <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
                     <label>Message:</label>
